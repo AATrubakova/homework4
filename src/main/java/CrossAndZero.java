@@ -189,7 +189,7 @@ public class CrossAndZero {
         if (x < 0 || y < 0 || x >= field.length || y >= field.length) {
             return false;
         } else {
-            return (field[x][y] == symbol);
+            return (field[x][y].equals(symbol));
         }
     }
 }
